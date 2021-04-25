@@ -15,6 +15,7 @@ btn.addEventListener('click', () => {
 		message: message.value,
 		handle: handle.value,
 	});
+	message.value = '';
 });
 
 // Broadcasting message : Eg: John is typing....
